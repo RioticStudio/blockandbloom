@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "First check: festival renamed",
+  "config": {
+    "events": {
+      "festivals": [
+        {
+          "id": "bloom_festival",
+          "name": "Autumn Bloom Festival",
+          "first": "2026-10-31",
+          "days": 7,
+          "every": 14,
+          "points": {
+            "flower": 1,
+            "levelWon": 20,
+            "dailyWon": 20
+          },
+          "track": [
+            {
+              "points": 100,
+              "reward": {
+                "flower": 20,
+                "water": 20
+              }
+            },
+            {
+              "points": 250,
+              "reward": {
+                "undo": 1
+              }
+            },
+            {
+              "points": 450,
+              "reward": {
+                "leaves": 10
+              }
+            },
+            {
+              "points": 680,
+              "reward": {
+                "flower": 30,
+                "water": 30
+              }
+            },
+            {
+              "points": 930,
+              "reward": {
+                "shuffle": 1
+              }
+            },
+            {
+              "points": 1200,
+              "reward": {
+                "leaves": 15
+              }
+            },
+            {
+              "points": 1500,
+              "reward": {
+                "coins": 100
+              },
+              "decor": [
+                "festival_bunting",
+                "festival_bunting_water"
+              ],
+              "leavesIfOwned": 30
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
